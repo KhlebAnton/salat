@@ -1,17 +1,52 @@
 @font-face {
     font-family: "Inter";
-    src: url('/fonts/Inter_24pt-Bold.ttf');
+    src: url('../fonts/Inter_24pt-Bold.ttf');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Nautilus Pompilius";
-    src: url('/fonts/Nautilus.otf');
+    src: url('../fonts/Nautilus.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Golos";
+    src: url('../fonts/Golos-Text_Regular.ttf');
     font-weight: 400;
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Golos";
+    src: url('../fonts/Golos-Text_Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Golos";
+    src: url('../fonts/Golos-Text_DemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Golos";
+    src: url("../fonts/Golos-Text_Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: "NP";
+    src: url(/fonts/Pompilius.ttf?be317a3cf712c833e294b892c792ed43);
+    font-weight: 400;
+    font-style: normal;
+}
 :root {
     --brand-green: #8FB71C;
 }
