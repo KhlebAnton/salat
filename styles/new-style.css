@@ -222,10 +222,14 @@
     background-color: var(--brand-green);
     border-radius: 8px;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     color: #ffffff;
     font-size: 40px;
+    line-height: 100%;
+    padding-top: 4px;
+    box-sizing: border-box;
+
 }
 
 .complex-who__item {
@@ -921,6 +925,7 @@ gap: 200px;
     }
     .complex-be-partner__form-wrapper p {
         max-width: 350px;
+        width: 100%;
     }
     .complex-form {
         width: 100%;
