@@ -227,7 +227,7 @@
     color: #ffffff;
     font-size: 40px;
     line-height: 100%;
-    padding-top: 4px;
+    padding-top: 8px;
     box-sizing: border-box;
 
 }
@@ -571,6 +571,8 @@
     gap: 20px;
     max-height: 315px;
     overflow-y: auto;
+     scrollbar-width: thin;
+    scrollbar-color: var(--brand-green) transparent;
 }
 
 .complex-reviews-item__text::-webkit-scrollbar {
