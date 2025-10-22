@@ -612,6 +612,8 @@
     align-items: center;
     gap: 16px;
     margin-top: 24px;
+    padding-bottom: 6px;
+    padding-left: 6px;
 }
 .complex-reviews-swiper__nav-prev,
 .complex-reviews-swiper__nav-next {
